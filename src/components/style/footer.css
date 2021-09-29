@@ -1,0 +1,15 @@
+@import url(./const.css);
+
+.footer__content{
+    width: 100%;
+    height: 110px;
+    background: var(--black-secundary);
+    color: var(--withe-font);
+}
+
+.footer__content .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 110px;
+}

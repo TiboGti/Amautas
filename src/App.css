@@ -1,1 +1,5 @@
 @import url(./components/style/const.css);
+
+section{
+    margin-block-start:3rem ;
+}
