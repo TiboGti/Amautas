@@ -1,5 +1,9 @@
 @import url(./const.css);
 
+footer{
+    background-color: var(--black);
+}
+
 .footer__content{
     width: 100%;
     height: 110px;
@@ -12,4 +16,51 @@
     justify-content: space-between;
     align-items: center;
     height: 110px;
+}
+
+.footer__content .footer__social img{
+    margin-inline: 0.5rem;
+    align-self: center;
+    cursor: pointer;
+}
+
+.footer__content .footer__logo img{
+    width: 200px;
+    cursor: pointer;
+}
+
+.footer__content .footer__about li{
+    list-style: none;
+    text-align: center;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 18px;
+    cursor: pointer;
+}
+
+.footer__content .footer__about li:nth-child(1){
+    font-size: 15px;
+    font-weight: 600;
+}
+.footer__copy{
+    width: 100%;
+    height: 54px;
+    border: none;
+    background-color: var(--black);
+    color: var(--withe-font)
+}
+
+.footer__copy .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+
+.footer__copy .container div{
+    width: 50%;
+    font-size: 0.9rem;
+    font-weight: 600;
 }

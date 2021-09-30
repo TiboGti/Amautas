@@ -1,5 +1,6 @@
 import React from 'react'
 import './style/footer.css'
+import {images} from '../assets/img'
 
 function Footer() {
     return (
@@ -7,13 +8,13 @@ function Footer() {
             <div className="footer__content">
                 <div className="container">
                     <div className="footer__social">
-                        <img src="" alt="Facebook" className="footer__social--ico" />
-                        <img src="" alt="instagran" className="footer__social--ico" />
-                        <img src="" alt="twitter" className="footer__social--ico" />
-                        <img src="" alt="linkedin" className="footer__social--ico" />
+                        <img src={images.facebook} alt="Facebook" className="footer__social--ico" />
+                        <img src={images.instagram} alt="instagran" className="footer__social--ico" />
+                        <img src={images.twitter} alt="twitter" className="footer__social--ico" />
+                        <img src={images.linkedin} alt="linkedin" className="footer__social--ico" />
                     </div>
                     <div className="footer__logo">
-                        <img src="" alt="footer logo Amautas" />
+                        <img src={images.logo_white} alt="footer logo Amautas" />
                     </div>
                     <div className="footer__about">
                         <ul>

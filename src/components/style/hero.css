@@ -1,0 +1,47 @@
+@import url('./const.css');
+
+.header{
+    width: 100%;
+    height: 100vh;
+    max-width: 2000px;
+    max-height:1500px ;
+    background-image: url('../../assets/img/hero.png');
+    background-repeat: none;
+    background-size: cover;
+    background-position:center;
+    margin: 0 auto;
+}
+
+.header .hero__content{
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    color: var(--withe-font)
+}
+
+.header .hero__content .hero__content--font{
+    width: 100%;
+    height: 80%;
+    grid-column: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.hero__content--font h1{
+    margin-block: 1rem;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 35px;
+    line-height: 43px;
+}
+
+.hero__content--font p{
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 24px;
+}

@@ -3,3 +3,7 @@
 section{
     margin-block-start:3rem ;
 }
+
+.App{
+    background: var(--black);
+}
