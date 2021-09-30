@@ -1,9 +1,9 @@
 import React from 'react'
 import Btn from './Btn';
-import Card from './Card';
+import Cards from './Cards';
 import Footer from './Footer';
 import Hero from './Hero';
-
+import {carData} from '../api/CarsData'
 
 function Listcomponents() {
     return (
@@ -13,7 +13,7 @@ function Listcomponents() {
             <Btn type="regular" content="Registrate" />
             </section>
             <section>
-                <Card/>
+                <Cards/>
             </section>
             <section>    
                 <Footer/>

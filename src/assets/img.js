@@ -14,6 +14,10 @@ import card1 from '../assets/img/card1.png'
 import card2 from '../assets/img/card2.png'
 import card3 from '../assets/img/card3.png'
 
+import cardavatar1 from '../assets/ico/cardavatar1.png'
+import cardavatar2 from '../assets/ico/cardavatar2.png'
+import cardavatar3 from '../assets/ico/cardavatar3.png'
+
 
 export const images = 
     {
@@ -29,5 +33,8 @@ export const images =
     avatar: avatar,
     card1: card1,
     card2: card2,
-    card3: card3
+    card3: card3,
+    cardavatar1: cardavatar1,        
+    cardavatar2: cardavatar2,
+    cardavatar3: cardavatar3
     }
