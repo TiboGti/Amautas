@@ -3,17 +3,19 @@ import Btn from './Btn';
 import Cards from './Cards';
 import Footer from './Footer';
 import Hero from './Hero';
-import {carData} from '../api/CarsData'
+import Tgas from './Tgas';
+
 
 function Listcomponents() {
     return (
         <div>
             <Hero/>
-            <section>
-            <Btn type="regular" content="Registrate" />
-            </section>
+            
             <section>
                 <Cards/>
+            </section>
+            <section>
+                <Tgas/>
             </section>
             <section>    
                 <Footer/>
