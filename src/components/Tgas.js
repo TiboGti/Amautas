@@ -6,6 +6,14 @@ import './style/tag.css'
 function Tgas() {
     return (
         <div className="container">
+            <div className="tag__section--title">
+                <h2>
+                    ¿Por qué Amautas?
+                </h2>
+                <p>
+                Si tienes curiosidad y te ilusiona compartir conocimiento, somos tu comunidad.
+                </p>
+            </div>
             <div className="tag__container">
                 {
                     tagData.map(infoTag =>(
