@@ -1,0 +1,23 @@
+@import url('./const.css');
+
+.banner{
+    width: 100%;
+    color: var(--withe-font);
+    text-align: center;
+}
+.banner h2,p,button{
+    margin-block: 1rem;
+}
+.banner h2{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 35px;
+    line-height: 43px;
+}
+
+.banner p{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 24px;
+}

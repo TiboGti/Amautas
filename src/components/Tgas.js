@@ -2,6 +2,7 @@ import React from 'react'
 import {tagData} from '../api/TagData'
 import Tag from './Tag';
 import './style/tag.css'
+import Btn from './Btn';
 
 function Tgas() {
     return (
@@ -21,6 +22,9 @@ function Tgas() {
                     ))
                 }
             </div>
+                <div className="tag__btn">
+                    <Btn type="regular" content="Manifiesto" />
+                </div>
         </div>
     )
 }
