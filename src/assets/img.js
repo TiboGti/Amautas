@@ -19,6 +19,7 @@ import cardavatar2 from '../assets/ico/cardavatar2.png'
 import cardavatar3 from '../assets/ico/cardavatar3.png'
 
 import playico from '../assets/ico/Play-icon.png'
+import baget from './img/baget.png'
 
 
 export const images = 
@@ -39,5 +40,6 @@ export const images =
     cardavatar1: cardavatar1,        
     cardavatar2: cardavatar2,
     cardavatar3: cardavatar3,
-    icoplay: playico
+    icoplay: playico,
+    baget: baget
     }

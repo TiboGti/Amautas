@@ -6,6 +6,10 @@ import Card from './Card';
 function Cards() {
     return (
         <div className="container">
+            <h2 className="card__section--title">
+                Cursos
+            </h2>
+
         <div className="card__container">
             {
                 CarData.map(Cardinfo =>(
