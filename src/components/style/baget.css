@@ -4,8 +4,23 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-block: 4rem;
-    padding: 2rem;
+}
+
+.baget__container .baget__container--btn-end{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    margin: 1rem;
+}
+
+.baget__container .baget__container--arrow{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    margin: 1rem;
+    cursor: pointer;
 }
 
 
@@ -95,4 +110,9 @@
     line-height: 17px;
     color: var(--withe-font);
     background: var(--pink-primary);
+}
+
+.section__baget{
+    margin-block: 4rem;
+    padding-block: 2rem;
 }

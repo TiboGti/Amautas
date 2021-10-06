@@ -10,6 +10,6 @@ export const banner_1 = {
 export const banner_2 = {
     title: "¿Ya has decidido ser Amauta?",
     text: "Aprender, descubrir, compartir y disfrutar de los mejores científicos de habla hispana. Formar parte de una comunidad única en el mundo.",
-    type: "Arrow",
-    content: "Conócelos"
+    type: "arrow",
+    
 }

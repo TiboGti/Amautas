@@ -19,6 +19,10 @@ import cardavatar2 from '../assets/ico/cardavatar2.png'
 import cardavatar3 from '../assets/ico/cardavatar3.png'
 
 import playico from '../assets/ico/Play-icon.png'
+
+import arrow_left from '../assets/ico/arrow-left.png'
+import arrow_rigth from '../assets/ico/arrow-rigth.png'
+
 import baget from './img/baget.png'
 
 
@@ -41,5 +45,7 @@ export const images =
     cardavatar2: cardavatar2,
     cardavatar3: cardavatar3,
     icoplay: playico,
-    baget: baget
+    baget: baget,
+    arrow_left: arrow_left,
+    arrow_rigth: arrow_rigth
     }
