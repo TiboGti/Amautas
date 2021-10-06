@@ -6,7 +6,7 @@ import Tgas from './Tgas';
 
 import {banner_2, banner_1} from '../api/BannerData'
 import Banner from './Banner';
-import Baget from './Baget';
+import Bagets from './Bagets';
 
 
 function Listcomponents() {
@@ -14,8 +14,8 @@ function Listcomponents() {
         <div>
             <Hero/>
 
-            <div className="container">
-                <Baget/>
+            <div className="">
+                <Bagets/>
             </div>
             
             <div className="main__backg">
