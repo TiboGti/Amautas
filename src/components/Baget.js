@@ -3,7 +3,7 @@ import './style/baget.css'
 
 function Baget(props) {
     return (
-        <div className="baget"a key={props.id} >
+        <div className="baget" key={props.id} >
             <div className="baget__card">
                 <img src={props.img} alt="" />
             </div>

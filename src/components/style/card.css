@@ -89,6 +89,48 @@
 
 }
 
+.card__index{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-block-start: 1rem;
+}
+
+.card__index .index__content{
+    position: relative;
+    width: 21px;
+    height: 21px;
+    border-radius: 50%;
+    margin-inline-end: 1rem;
+}
+
+.card__index .index__active{
+    border: solid 1px var(--pink-primary);
+}
+
+.card__index .index__content .index{
+    position:absolute;
+    top: 4px;
+    left: 4px;
+    width: 11px;
+    height: 11px;
+    background: var(--pink-primary);
+    border-radius: 50%;
+    margin: 0;
+    padding: 0;
+}
+
+.card__index p{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    color: var(--pink-primary);
+    border-bottom: solid 1px var(--pink-primary);
+    cursor: pointer;
+}
+
 .card__section--title{
     margin-block: 2rem;
     color: var(--withe-font);

@@ -16,7 +16,7 @@ function Cards() {
                 </div>
                 {
                     CarData.map(Cardinfo =>(
-                        <Card key={Cardinfo.id} img={Cardinfo.img} title={Cardinfo.title} autor={Cardinfo.autor} avatar={Cardinfo.avatar} videos={Cardinfo.videos} name={Cardinfo.name} icoplay={Cardinfo.icoplay} />
+                        <Card id={Cardinfo.id} img={Cardinfo.img} title={Cardinfo.title} autor={Cardinfo.autor} avatar={Cardinfo.avatar} videos={Cardinfo.videos} name={Cardinfo.name} icoplay={Cardinfo.icoplay} />
                     ))
                 }
                 <div className="arrow arrow-left">
@@ -24,11 +24,11 @@ function Cards() {
                 </div>
             </div>
             <div className="card__index">
-                <div className="index"></div>
-                <div className="index"></div>
-                <div className="index"></div>
+                <div className="index__content"><div className="index"></div></div>
+                <div className="index__content index__active"><div className="index"></div></div>
+                <div className="index__content"><div className="index"></div></div>
                 <p>
-                    Ver Todo
+                    Ver Todos
                 </p>
             </div>
         </div>
