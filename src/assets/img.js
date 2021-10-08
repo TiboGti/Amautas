@@ -24,6 +24,9 @@ import arrow_left from '../assets/ico/arrow-left.png'
 import arrow_rigth from '../assets/ico/arrow-rigth.png'
 
 import baget from './img/baget.png'
+import play_big from '../assets/ico/Play-big.png'
+import calendar from '../assets/ico/calendar.png'
+import play from '../assets/ico/Play.png'
 
 
 export const images = 
@@ -47,5 +50,8 @@ export const images =
     icoplay: playico,
     baget: baget,
     arrow_left: arrow_left,
-    arrow_rigth: arrow_rigth
+    arrow_rigth: arrow_rigth,
+    play_big: play_big,
+    calendar: calendar,
+    play: play
     }

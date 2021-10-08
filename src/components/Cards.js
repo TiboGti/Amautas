@@ -16,7 +16,7 @@ function Cards() {
                 </div>
                 {
                     CarData.map(Cardinfo =>(
-                        <Card id={Cardinfo.id} img={Cardinfo.img} title={Cardinfo.title} autor={Cardinfo.autor} avatar={Cardinfo.avatar} videos={Cardinfo.videos} name={Cardinfo.name} icoplay={Cardinfo.icoplay} />
+                        <Card key={Cardinfo.id} img={Cardinfo.img} title={Cardinfo.title} autor={Cardinfo.autor} avatar={Cardinfo.avatar} videos={Cardinfo.videos} name={Cardinfo.name} icoplay={Cardinfo.icoplay} />
                     ))
                 }
                 <div className="arrow arrow-left">

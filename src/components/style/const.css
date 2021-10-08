@@ -1,5 +1,6 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://cdn-uicons.flaticon.com/uicons-regular-rounded/css/uicons-regular-rounded.css');
 
 :root{
     --pink-primary:#F60D9C;
@@ -49,10 +50,5 @@ body{
 @media screen and (min-width:1400px){
     .container{
         max-width: 1260px;
-    }
-}
-@media screen and (min-width:1800px){
-    .container{
-        max-width: 1360px;
     }
 }

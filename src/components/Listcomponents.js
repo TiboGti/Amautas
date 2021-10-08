@@ -9,6 +9,7 @@ import Banner from './Banner';
 import Bagets from './Bagets';
 
 
+
 function Listcomponents() {
     return (
         <div>
@@ -28,6 +29,7 @@ function Listcomponents() {
             <section>
                 <Tgas/>
             </section>
+            
             <section>
                 <Banner title={banner_2.title} text={banner_2.text} type={banner_2.type} content="&#x279C;" />
                 <div className="separador">

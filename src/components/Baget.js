@@ -1,10 +1,14 @@
 import React from 'react'
+import { images } from '../assets/img';
 import './style/baget.css'
 
 function Baget(props) {
     return (
-        <div className="baget" key={props.id} >
+        <div className="baget"  >
             <div className="baget__card">
+                <div className="card--anuncio">
+                Proximo Directo
+                </div>
                 <img src={props.img} alt="" />
             </div>
             <div className="baget__content">
@@ -26,12 +30,12 @@ function Baget(props) {
                     </div>
                     <div className="content--footer-btn1">
                         <p>
-                            Agendar
+                            <img src={images.calendar} alt="" />  Agendar
                         </p>
                     </div>
                     <div className="content--footer-btn2">
                         <p>
-                            Ver Directo
+                            <img src={images.play} alt="" /> Ver Directo
                         </p>
                     </div>
 

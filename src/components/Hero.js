@@ -1,6 +1,7 @@
 import React from 'react'
 import './style/hero.css'
 import Navbar from './Navbar';
+import { images } from '../assets/img';
 
 function Hero() {
     return (
@@ -17,6 +18,9 @@ function Hero() {
                     <br />
                     Somos Amautas
                     </p>
+                </div>
+                <div className="hero__video">
+                    <img src={images.play_big} alt="" />
                 </div>
             </div>
         </header>

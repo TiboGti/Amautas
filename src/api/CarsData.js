@@ -2,7 +2,7 @@ import {images} from '../assets/img'
 
 export const CarData = [
     {
-        id: 1,
+        id: "1",
         name:"Jose Edelstein",
         img: images.card1,
         title: "Mecanica cuantica",
@@ -13,7 +13,7 @@ export const CarData = [
 
     },
     {
-        id: 2,
+        id: "2",
         name: "Javier Santaolalla",
         img: images.card2,
         title: "El Modelo Estandar",
@@ -23,7 +23,7 @@ export const CarData = [
         icoplay: images.icoplay
     },
     {
-        id: 2,
+        id: "3",
         name: "Hector Socas",
         img: images.card3,
         title: "El Sistema solar y los origenes de la vida",
