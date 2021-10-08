@@ -9,7 +9,7 @@ function Baget(props) {
                 <div className="card--anuncio">
                 Proximo Directo
                 </div>
-                <img src={props.img} alt="" />
+                <img src={props.img} alt="imagen cards" />
             </div>
             <div className="baget__content">
                 <div className="baget__content--header">
@@ -30,12 +30,12 @@ function Baget(props) {
                     </div>
                     <div className="content--footer-btn1">
                         <p>
-                            <img src={images.calendar} alt="" />  Agendar
+                            <img src={images.calendar} alt="icono calendario" />  Agendar
                         </p>
                     </div>
                     <div className="content--footer-btn2">
                         <p>
-                            <img src={images.play} alt="" /> Ver Directo
+                            <img src={images.play} alt="icono play" /> Ver Directo
                         </p>
                     </div>
 

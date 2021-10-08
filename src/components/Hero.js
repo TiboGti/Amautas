@@ -20,7 +20,7 @@ function Hero() {
                     </p>
                 </div>
                 <div className="hero__video">
-                    <img src={images.play_big} alt="" />
+                    <img src={images.play_big} alt="icono play" />
                 </div>
             </div>
         </header>

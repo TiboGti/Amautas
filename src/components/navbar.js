@@ -22,7 +22,7 @@ function Navbar() {
                 <div className="navbar__btn">
                     
                     <Search/>
-                    <img src={images.avatar} alt="" className="avater" />
+                    <img src={images.avatar} alt="avatar" className="avatar" />
                     <Btn type="regular" content="Registrate" />
                 </div>
             </div>

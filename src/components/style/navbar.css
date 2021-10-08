@@ -15,6 +15,10 @@ nav .container{
     color: var(--withe-font);
 }
 
+nav .container .navbar__logo img{
+    cursor: pointer;
+}
+
 nav .navbar__items ul{
     display: inline-flex;
 }

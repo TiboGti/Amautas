@@ -140,6 +140,7 @@
     font-size: 14px;
     line-height: 17px;
     color: var(--pink-primary);
+    cursor: pointer;
 }
 
 .baget__content--footer .content--footer-btn2{
@@ -152,6 +153,7 @@
     line-height: 17px;
     color: var(--withe-font);
     background: var(--pink-primary);
+    cursor: pointer;
 }
 
 .baget__content--footer img{

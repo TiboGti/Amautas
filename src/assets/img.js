@@ -30,6 +30,7 @@ import baget3 from './img/baget3.png'
 import play_big from '../assets/ico/Play-big.png'
 import calendar from '../assets/ico/calendar.png'
 import play from '../assets/ico/Play.png'
+import btn_arrow from '../assets/ico/btn-arrow.png'
 
 
 export const images = 
@@ -58,5 +59,6 @@ export const images =
     arrow_rigth: arrow_rigth,
     play_big: play_big,
     calendar: calendar,
-    play: play
+    play: play,
+    btn_arrow: btn_arrow
     }

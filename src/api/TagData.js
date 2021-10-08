@@ -15,7 +15,7 @@ export const tagData = [
     {   
         id: "3",
         title: "La ciencia confía en nosotros",
-        text: "Vamos a repasar los conceptos más locos de la ciencia y a relacionarlos con obras de ficción conocidas (o quizás no tanto). Vamos a hablar de steampunk, de inteligencia artificial, de cibernética y, por supuesto."
+        text: "Amamos lo que hacemos y queremos devolverle a la ciencia todo lo que nos ha dado."
 
     }
 ]

@@ -18,15 +18,11 @@
 }
 
 .btn--arrow{
-    width: 60px;
-    height: 60px;
+    width: 46px;
+    height: 46px;
     border-radius: 50%;
     border: solid 5px var(--pink-primary);
     background: none;
-    font-size: 32px;
-    font-weight: 900;
-    color: var(--pink-primary);
-    padding-block-end: 32px;
 
 }
 

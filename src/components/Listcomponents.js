@@ -7,6 +7,7 @@ import Tgas from './Tgas';
 import {banner_2, banner_1} from '../api/BannerData'
 import Banner from './Banner';
 import Bagets from './Bagets';
+import { images } from '../assets/img';
 
 
 
@@ -31,7 +32,7 @@ function Listcomponents() {
             </section>
             
             <section>
-                <Banner title={banner_2.title} text={banner_2.text} type={banner_2.type} content="&#x279C;" />
+                <Banner title={banner_2.title} text={banner_2.text} type={banner_2.type} content={<img src={images.btn_arrow} alt="" />} />
                 <div className="separador">
                     
                 </div>
