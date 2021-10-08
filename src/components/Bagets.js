@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import Baget from './Baget';
-import Btn from './Btn';
 import Slider from "react-slick";
 
 import {bagetData} from '../api/BagetData'

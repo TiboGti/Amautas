@@ -18,7 +18,7 @@ function Tgas() {
             <div className="tag__container">
                 {
                     tagData.map(infoTag =>(
-                        <Tag title={infoTag.title} text={infoTag.text} />
+                        <Tag title={infoTag.title} text={infoTag.text} key={infoTag.id} />
                     ))
                 }
             </div>
