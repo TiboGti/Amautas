@@ -47,10 +47,9 @@ export default class Bagets extends Component {
     const settings = {
         dots: true,
         infinite: true,
-        lazyLoad: true,
         speed: 800,
         autoplay: true,
-        autoplaySpeed: 4000,
+        autoplaySpeed: 5000,
         pauseOnHover: true,
         slidesToShow: 1,
         slidesToScroll: 1,
@@ -97,3 +96,4 @@ export default class Bagets extends Component {
 }
 
 }
+
